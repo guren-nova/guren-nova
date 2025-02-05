@@ -13,7 +13,7 @@
 
 ## 🚀 使用技術
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?guren-nova=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Stats]https://github-readme-stats.vercel.app/api/top-langs/?guren-nova=zizi4n5
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=guren-nova&count_private=true&show_icons=true&hide_title=true&theme=dark)](https://github.com/guren-nova)
 
 ---
