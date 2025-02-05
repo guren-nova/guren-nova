@@ -14,7 +14,6 @@
 
 ## 🚀 使用技術
 
-![Tech Stack](https://techstack-icon-api.com/icons/python/javascript/nodejs.png)  
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=guren-nova&count_private=true&show_icons=true&hide_title=true&theme=dark)](https://github.com/guren-nova)
 
 ---
