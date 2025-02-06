@@ -31,7 +31,7 @@
 
 - 📬 メール: [contact@fortifybot.com](mailto:contact@fortifybot.com)
 - 🐦 Twitter: [@yourhandle](https://twitter.com/FortifyBot)
-- 🌐 WebSite: [guren-nova.net.com](https://guren-nova.com)
+- 🌐 WebSite: [guren-nova.net](https://guren-nova.net)
 
 ---
 
