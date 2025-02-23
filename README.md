@@ -22,14 +22,14 @@
 ### [Fortify Bot](https://www.fortifybot.com)
 高度な荒らし対策機能を持つDiscordボット。サーバー管理が簡単に！
 
-### [Fortify Team](https://www.fortifybot.net)
-安全を提供し、いつでも安心に　・　安全のセキュリティと安心の運営サポート
+### [PortiNet](https://portinet.org/)
+次世代のネットワークを、あなたへ。
 
 ---
 
 ## 💬 お気軽に連絡ください！
 
-- 📬 メール: [contact@fortifybot.com](mailto:contact@fortifybot.com)
+- 📬 メール: [guren-nova@fortifybot.net](guren-nova@fortifybot.net)
 - 🐦 Twitter: [@yourhandle](https://twitter.com/FortifyBot)
 - 🌐 WebSite: [guren-nova.net](https://guren-nova.net)
 
