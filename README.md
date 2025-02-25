@@ -13,6 +13,7 @@
 
 ## 🚀 使用技術
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=guren-nova)](https://github.com/guren-nova/github-readme-stats)
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=guren-nova&count_private=true&show_icons=true&hide_title=true&theme=dark)](https://github.com/guren-nova)
 
 ---
