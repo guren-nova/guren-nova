@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>紅蓮ノヴァ - プロフェッショナルポートフォリオ</title>
+
+	<!-- TailwindCSS CDN -->
+	<script src="https://cdn.tailwindcss.com"></script>
+
+	<!-- FontAwesome CDN -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+	<style>
+		body {
+			font-family: 'Poppins', sans-serif;
+			background-color: #fff;
+			color: #111827;
+		}
+
+		::-webkit-scrollbar {
+			width: 8px;
+		}
+
+		::-webkit-scrollbar-track {
+			background: #f9fafb;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background-color: #6366f1;
+			border-radius: 4px;
+		}
+
+		.fade-in {
+			opacity: 0;
+			transform: translateY(30px);
+			transition: opacity 0.8s ease, transform 0.8s ease;
+		}
+
+		.fade-in.visible {
+			opacity: 1;
+			transform: translateY(0);
+		}
+
+		a.transition {
+			transition: color 0.3s ease, transform 0.3s ease;
+		}
+
+		a.transition:hover {
+			color: #4f46e5;
+			transform: translateY(-2px);
+		}
+	</style>
+</head>
+
+<body>
+
+	<main class="max-w-7xl mx-auto px-6 sm:px-12">
+
+		<!-- Hero Section -->
+		<section id="hero" class="flex flex-col md:flex-row items-center gap-14 min-h-screen py-28">
+			<div class="flex-shrink-0 relative group">
+				<img
+          src="https://profile.kuroneko6423.com/img/profile.png"
+          alt="紅蓮ノヴァ アイコン"
+          class="w-72 h-72 rounded-full border-8 border-indigo-600 shadow-2xl object-cover transition-transform duration-500 group-hover:scale-105"
+          loading="lazy"
+        />
+				<div
+					class="absolute inset-0 rounded-full border-2 border-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+				</div>
+			</div>
+
+			<div class="flex flex-col justify-center max-w-xl space-y-5">
+				<h1 class="text-7xl font-extrabold leading-tight tracking-tight text-gray-900">紅蓮ノヴァ</h1>
+				<p class="text-indigo-600 font-semibold text-2xl tracking-wide">
+					エンジニア・プログラマー
+				</p>
+				<p class="text-gray-700 text-lg leading-relaxed">
+					Python・Node.js・Go・Java・JavaScript・JSX・XML・HTML・CSS・PHPを駆使し、
+					Discord Bot開発、Web・アプリケーション開発を幅広く手掛けています。<br />
+          ITパスポートやPython関連の資格も取得し、技術力とコミュニティ運営で信頼を獲得中。
+        </p>
+
+					<!-- SNS Links -->
+					<div class="flex items-center gap-7 text-indigo-600 text-4xl mt-6">
+						<a href="https://twitter.com/kuroneko6423" target="_blank" aria-label="Twitter"
+							class="transition" rel="noopener">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="https://github.com/kuroneko6423" target="_blank" aria-label="GitHub" class="transition"
+							rel="noopener">
+							<i class="fab fa-github"></i>
+						</a>
+						<a href="https://discord.gg/kuroneko" target="_blank" aria-label="Discord" class="transition"
+							rel="noopener">
+							<i class="fab fa-discord"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/kuroneko6423" target="_blank" aria-label="LinkedIn"
+							class="transition" rel="noopener">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</div>
+
+					<p class="mt-8 text-sm text-gray-500 italic">
+						※ メールでのお問い合わせは基本受け付けておりません。DiscordまたはSNSからご連絡ください。
+					</p>
+			</div>
+		</section>
+
+		<!-- Skills Section -->
+		<section id="skills" class="my-28">
+			<h2 class="text-4xl font-bold border-b-4 border-indigo-600 inline-block mb-16">スキルセット</h2>
+			<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-8 gap-12 text-center">
+				<div class="flex flex-col items-center">
+					<i class="fab fa-python text-7xl text-indigo-600 mb-3"></i>
+					<span class="font-semibold text-lg text-gray-900">Python</span>
+				</div>
+				<div class="flex flex-col items-center">
+					<i class="fab fa-node-js text-7xl text-green-600 mb-3"></i>
+					<span class="font-semibold text-lg text-gray-900">Node.js</span>
+				</div>
+				<div class="flex flex-col items-center">
+					<span class="text-7xl font-bold text-indigo-700 mb-3 select-none">Go</span>
+					<span class="font-semibold text-lg text-gray-900">Go</span>
+				</div>
+				<div class="flex flex-col items-center">
+					<i class="fab fa-java text-7xl text-red-600 mb-3"></i>
+					<span class="font-semibold text-lg text-gray-900">Java</span>
+				</div>
+				<div class="flex flex-col items-center">
+					<i class="fab fa-js-square text-7xl text-yellow-400 mb-3"></i>
+					<span class="font-semibold text-lg text-gray-900">JavaScript</span>
+				</div>
+				<div class="flex flex-col items-center">
+					<span class="text-7xl font-bold text-yellow-500 mb-3 select-none">JSX</span>
+					<span class="font-semibold text-lg text-gray-900">JSX</span>
+				</div>
+				<div class="flex flex-col items-center">
+					<span class="text-7xl font-bold text-blue-500 mb-3 select-none">XML</span>
+					<span class="font-semibold text-lg text-gray-900">XML</span>
+				</div>
+				<div class="flex flex-col items-center">
+					<i class="fab fa-html5 text-7xl text-orange-500 mb-3"></i>
+					<span class="font-semibold text-lg text-gray-900">HTML</span>
+				</div>
+				<div class="flex flex-col items-center">
+					<i class="fas fa-file-code text-7xl text-pink-600 mb-3"></i>
+					<span class="font-semibold text-lg text-gray-900">SCSS</span>
+				</div>
+				<div class="flex flex-col items-center">
+					<i class="fab fa-css3-alt text-7xl text-blue-600 mb-3"></i>
+					<span class="font-semibold text-lg text-gray-900">CSS</span>
+				</div>
+				<div class="flex flex-col items-center">
+					<i class="fab fa-php text-7xl text-purple-700 mb-3"></i>
+					<span class="font-semibold text-lg text-gray-900">PHP</span>
+				</div>
+			</div>
+		</section>
+
+		<!-- Timeline Section -->
+		<section id="timeline" class="my-28 max-w-4xl mx-auto">
+			<h2 class="text-4xl font-bold border-b-4 border-indigo-600 inline-block mb-16">実績・タイムライン</h2>
+			<div class="space-y-16">
+				<article tabindex="0" class="fade-in border-l-4 border-indigo-600 pl-8 relative">
+					<div class="absolute left-0 top-3 w-6 h-6 bg-indigo-600 rounded-full shadow-lg"></div>
+					<time class="block font-bold text-indigo-700 mb-3 text-xl">2023年8月</time>
+					<h3 class="font-semibold text-3xl mb-3">多機能Bot「かわうそちゃん」運営開始</h3>
+					<p class="text-gray-700 text-lg leading-relaxed max-w-3xl">
+						Discord向け多機能Bot「かわうそちゃん」を開発・運営。30以上のコマンドとAPI連携を実装し、ユーザーから好評を得ています。
+					</p>
+				</article>
+
+				<article tabindex="0" class="fade-in border-l-4 border-indigo-600 pl-8 relative">
+					<div class="absolute left-0 top-3 w-6 h-6 bg-indigo-600 rounded-full shadow-lg"></div>
+					<time class="block font-bold text-indigo-700 mb-3 text-xl">2022年xx月</time>
+					<h3 class="font-semibold text-3xl mb-3">Discordサーバー「FNNews」運営開始</h3>
+					<p class="text-gray-700 text-lg leading-relaxed max-w-3xl">
+						ITニュース共有Discordサーバーを設立・運営。500人超のメンバーが最新情報を共有し合う活発なコミュニティに育てました。
+					</p>
+				</article>
+
+				<article tabindex="0" class="fade-in border-l-4 border-indigo-600 pl-8 relative">
+					<div class="absolute left-0 top-3 w-6 h-6 bg-indigo-600 rounded-full shadow-lg"></div>
+					<time class="block font-bold text-indigo-700 mb-3 text-xl">2021年xx月</time>
+					<h3 class="font-semibold text-3xl mb-3">ITパスポート & Python資格取得</h3>
+					<p class="text-gray-700 text-lg leading-relaxed max-w-3xl">
+						ITパスポート資格とPython関連資格を取得し、技術的な基盤を確立。継続的にスキルアップに努めています。
+					</p>
+				</article>
+			</div>
+		</section>
+
+		<!-- Services Section -->
+		<section id="services" class="my-28 max-w-5xl mx-auto">
+			<h2 class="text-4xl font-bold border-b-4 border-indigo-600 inline-block mb-12">現在運営中のサービス</h2>
+
+			<div>
+				<nav aria-label="サービス切り替えタブ" class="flex gap-6 mb-10 flex-wrap">
+					<button
+            class="tab-btn px-6 py-3 border-b-4 border-indigo-600 text-indigo-600 font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
+            data-tab="service1" aria-selected="true" role="tab" tabindex="0"
+          >
+            かわうそちゃん
+          </button>
+					<button
+            class="tab-btn px-6 py-3 border-b-4 border-transparent text-gray-500 hover:text-indigo-600 hover:border-indigo-600 font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
+            data-tab="service2" aria-selected="false" role="tab" tabindex="-1"
+          >
+            FNNews
+          </button>
+					<button
+            class="tab-btn px-6 py-3 border-b-4 border-transparent text-gray-500 hover:text-indigo-600 hover:border-indigo-600 font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
+            data-tab="service3" aria-selected="false" role="tab" tabindex="-1"
+          >
+            〇〇〇〇 Webアプリ
+          </button>
+				</nav>
+
+				<div id="service-contents" class="bg-gray-50 rounded-xl shadow-lg p-8 min-h-[200px]">
+					<div id="service1" class="tab-content" role="tabpanel" tabindex="0">
+						<h3 class="text-3xl font-bold text-indigo-700 mb-4">多機能Discord Bot「かわうそちゃん」</h3>
+						<p class="text-gray-700 text-lg leading-relaxed max-w-3xl">
+							2023年8月より運営中。チャット管理、ミニゲーム、API連携など多彩な機能を搭載し、活発なユーザーコミュニティがあります。
+						</p>
+						<p class="mt-4"><a href="https://discord.gg/yourbotserver" target="_blank" rel="noopener"
+								class="text-indigo-600 font-semibold hover:underline transition">Discordサーバー</a></p>
+						<p class="mt-2"><a href="https://github.com/kuroneko6423/kawauso-chan" target="_blank"
+								rel="noopener"
+								class="text-indigo-600 font-semibold hover:underline transition">GitHubリポジトリ</a></p>
+					</div>
+
+					<div id="service2" class="tab-content hidden" role="tabpanel" tabindex="0">
+						<h3 class="text-3xl font-bold text-indigo-700 mb-4">ITニュース共有Discordサーバー「FNNews」</h3>
+						<p class="text-gray-700 text-lg leading-relaxed max-w-3xl">
+							2022年より運営。500人以上が参加する活発なコミュニティで、最新のITニュースや技術情報を共有しています。
+						</p>
+						<p class="mt-4"><a href="https://discord.gg/fnnews" target="_blank" rel="noopener"
+								class="text-indigo-600 font-semibold hover:underline transition">Discordサーバー</a></p>
+					</div>
+
+					<div id="service3" class="tab-content hidden" role="tabpanel" tabindex="0">
+						<h3 class="text-3xl font-bold text-indigo-700 mb-4">〇〇〇〇 Webアプリ</h3>
+						<p class="text-gray-700 text-lg leading-relaxed max-w-3xl">
+							GoとPythonで開発した高速で安定したWebサービス。ユーザーからの高評価を獲得し、継続的に改善を重ねています。
+						</p>
+						<p class="mt-4"><a href="https://yourwebapp.example.com" target="_blank" rel="noopener"
+								class="text-indigo-600 font-semibold hover:underline transition">Webアプリはこちら</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact" class="my-28 max-w-3xl mx-auto text-center">
+			<h2 class="text-4xl font-bold border-b-4 border-indigo-600 inline-block mb-12">ご連絡先</h2>
+			<p class="text-gray-700 text-lg mb-10">
+				基本的にメールでのお問い合わせは受け付けておりません。DiscordやSNSからお気軽にご連絡ください。
+			</p>
+			<div class="flex justify-center gap-10 text-indigo-600 text-5xl">
+				<a href="https://discord.gg/kuroneko" target="_blank" aria-label="Discord"
+					class="transition hover:text-indigo-700" rel="noopener">
+					<i class="fab fa-discord"></i>
+				</a>
+				<a href="https://twitter.com/kuroneko6423" target="_blank" aria-label="Twitter"
+					class="transition hover:text-indigo-700" rel="noopener">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a href="https://github.com/kuroneko6423" target="_blank" aria-label="GitHub"
+					class="transition hover:text-indigo-700" rel="noopener">
+					<i class="fab fa-github"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/kuroneko6423" target="_blank" aria-label="LinkedIn"
+					class="transition hover:text-indigo-700" rel="noopener">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</div>
+		</section>
+
+	</main>
+
+	<script>
+		// タブ切り替え処理
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const tab = button.dataset.tab;
+
+        tabButtons.forEach(btn => {
+          btn.classList.remove('border-indigo-600', 'text-indigo-600');
+          btn.classList.add('text-gray-500');
+          btn.setAttribute('aria-selected', 'false');
+          btn.setAttribute('tabindex', '-1');
+        });
+
+        button.classList.add('border-indigo-600', 'text-indigo-600');
+        button.classList.remove('text-gray-500');
+        button.setAttribute('aria-selected', 'true');
+        button.setAttribute('tabindex', '0');
+        button.focus();
+
+        document.querySelectorAll('.tab-content').forEach(content => {
+          content.classList.add('hidden');
+          content.setAttribute('tabindex', '-1');
+        });
+        const selectedContent = document.getElementById(tab);
+        selectedContent.classList.remove('hidden');
+        selectedContent.setAttribute('tabindex', '0');
+      });
+    });
+
+    // スクロール時フェードインアニメーション
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOptions = {
+      threshold: 0,
+      rootMargin: "0px 0px -100px 0px"
+    };
+    const appearOnScroll = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+
+    faders.forEach(fader => {
+      appearOnScroll.observe(fader);
+    });
+	</script>
+
+</body>
+
+</html>
